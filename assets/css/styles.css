@@ -279,6 +279,18 @@ img {
 }
 
 /* For medium devices */
+@media screen and (min-width: 576px){
+  .nav__menu{
+    width: 60%;
+  }
 
+  .home__container{
+    grid-template-columns: 350px;
+    justify-content: center;
+  }
+  .home__data{
+    text-align: center;
+  }
+}
 
 /* For large devices */
